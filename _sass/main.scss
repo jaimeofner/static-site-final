@@ -18,51 +18,41 @@ h1 {
     
   }
 
-  #grad {
-    background-image: linear-gradient(45deg, peachpuff , peru);
-    width:100%;
-    min-height:100vh;
-  }
+//   #grad {
+//     background-image: linear-gradient(45deg, peachpuff , peru);
+//     width:100%;
+//     min-height:100vh;
+//   }
 
 
   .port-container {
     display:flex;
     flex-flow: row wrap;
     justify-content:space-around;
-    max-width: 400px;
+    width: 400px;
   }
   
-  .grid-container{
-  position: relative;
-  }
-  
- 
-  .image {
-    display: inline;
-    /* width: 500;
-    height: auto; */
-    margin: 10px;
-  }
 
-  .overlay {
-    position: absolute;
-    display:flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: peachpuff;
-  }
+
+//   .overlay {
+//     position: absolute;
+//     display:flex;
+//     justify-content: center;
+//     flex-direction: column;
+//     text-align: center;
+//     top: 0;
+//     bottom: 0;
+//     left: 0;
+//     right: 0;
+//     height: 100%;
+//     width: 100%;
+//     opacity: 0;
+//     transition: .5s ease;
+//     background-color: peachpuff;
+//   }
   
-  .grid-container:hover .overlay {
-    opacity: .75; }
+//   .grid-container:hover .overlay {
+//     opacity: .75; }
 
 .caption_media {
    max-width: 400px;
