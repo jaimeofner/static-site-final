@@ -12,12 +12,20 @@ layout: default
 <div class="port-container">
       
 {% for post in site.posts %}
-    {% if post.tags contains "nola" or "NOLA" %}
-    <img src="{{site.baseurl}}/assets/img/{{post.img}}">
-{% endif %}
+
   
     
-    
+
+            <div class="grid-container">
+                
+              <img src="{{site.baseurl}}/assets/img/{{post.img}}">
+              <div class="overlay">
+            <div class="text">Atelier Fashion Show Poster</div>
+          </div>
+            </div>
+             
+      
+      
 {% endfor %}
-</div>    
+    
 </div>
