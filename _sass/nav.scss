@@ -39,12 +39,16 @@ header{
   
   .logo {
     flex-grow:1;
+    width:100px;
   }
-      .fas, .fa-bars {
+
+
+  .fas, .fa-bars {
       color:black;
       margin-top:25px;
       margin-right:25px;
       display:none;
+          
     }
   
   
